@@ -107,7 +107,8 @@ export class HranaConnection implements kysely.DatabaseConnection {
         return {
             numAffectedRows: BigInt(rowsResult.affectedRowCount),
             rows: rowsResult.rows as R[],
-        };
+            columnDecltypes: rowsResult.columnDecltypes,
+        } as kysely.QueryResult<R>;
     }
 
     async *streamQuery<R>(
