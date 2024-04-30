@@ -1,6 +1,6 @@
 {
     "name": "@voinik/kysely-libsql",
-    "version": "0.3.1-pre",
+    "version": "0.3.2-pre",
     "private": false,
     "keywords": [
         "hrana",
@@ -12,7 +12,7 @@
     "description": "Kysely dialect for libSQL",
     "repository": {
         "type": "git",
-        "url": "github:voinik/kysely-libsql"
+        "url": "git+https://github.com/voinik/kysely-libsql.git"
     },
     "homepage": "https://github.com/voinik/kysely-libsql",
     "authors": [
